@@ -74,7 +74,7 @@ function MyApp({ Component, pageProps }) {
     setIsLoaded(true);
   };
 
-  let socket = useSocket("https://chinguitel.herokuapp.com/");
+  let socket = useSocket("http://192.168.42.124:6700");
 
   useEffect(() => {
     request();
@@ -146,7 +146,7 @@ function MyApp({ Component, pageProps }) {
                   height: "100%",
                 }}
               >
-                {user && (
+                {user && ["/auth/login"].indexOf(CurrentPath) <= -1 && (
                   <div
                     className={
                       " sm:pt-[15px] bg-[#fff] sm:bg-[#fafafa] border-b-0 sm:border-t-0 border-t-[1px] sm:justify-start  sm:static fixed  sm:top-0 bottom-0"
