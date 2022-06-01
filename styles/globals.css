@@ -1,0 +1,89 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SFP-Bold";
+  src: url("/fonts/SFPro-Display-Bold.ttf");
+}
+
+@font-face {
+  font-family: "SFP-SemiBold";
+  src: url("/fonts/SFPro-Display-Semibold.ttf");
+}
+@font-face {
+  font-family: "SFP-Medium";
+  src: url("/fonts/SFPro-Display-Medium.ttf");
+}
+@font-face {
+  font-family: "SFP-Regular";
+  src: url("/fonts/SFPro-Display-Regular.ttf");
+}
+
+.otherside {
+  display: none;
+}
+
+.fixhover:hover {
+  opacity: 1;
+}
+
+.fixhover {
+  opacity: 0;
+}
+
+@media only screen and (min-width: 1125px) {
+  .otherside {
+    display: flex;
+  }
+}
+
+.fixmee {
+  padding-top: 180px;
+}
+.fixright {
+  right: 30px;
+}
+.fixwidt {
+  right: 0px;
+  width: 100vw;
+  border-radius: 0px;
+  margin-top: 0px;
+}
+.fixiii {
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.getoff {
+  flex: 1;
+}
+
+.maincsshead {
+  background-image: url("/mainhead.png");
+  background-size: cover;
+  object-fit: cover;
+}
+@media only screen and (min-width: 1024px) {
+  .fixmee {
+    padding-top: 30px;
+  }
+  .fixright {
+    right: 30px;
+  }
+  .fixwidt {
+    right: 30px;
+    width: 210px;
+    border-radius: 5px;
+    margin-top: 17px;
+  }
+  .fixiii {
+    justify-content: center;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  .getoff {
+    flex: 0;
+  }
+}

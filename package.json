@@ -1,0 +1,42 @@
+{
+  "name": "paypoints",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build ",
+    "start": "next start -p 80"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@headlessui/react": "^1.2.0",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.6.4",
+    "apisauce": "^2.1.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "chart.js": "^3.0.0",
+    "config": "^3.3.6",
+    "cookie": "^0.4.1",
+    "cookies": "^0.8.0",
+    "crypto-js": "^4.1.1",
+    "js-cookie": "^2.2.1",
+    "js-cookies": "^1.0.4",
+    "jwt-decode": "^3.1.2",
+    "next": "^12.0.2",
+    "react": "17.0.2",
+    "react-chartjs-2": "^3.0.3",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-modal": "^3.13.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-spinners": "^0.11.0",
+    "socket.io-client": "^4.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.14",
+    "tailwindcss": "^2.2.4"
+  }
+}
