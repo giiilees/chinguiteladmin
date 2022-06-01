@@ -74,7 +74,7 @@ function MyApp({ Component, pageProps }) {
     setIsLoaded(true);
   };
 
-  let socket = useSocket("http://192.168.42.124:6700");
+  let socket = useSocket("https://chinguitel.herokuapp.com/");
 
   useEffect(() => {
     request();
