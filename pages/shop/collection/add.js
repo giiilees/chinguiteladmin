@@ -80,7 +80,11 @@ function CollectionAdd({ menu, setMenu }) {
   const submitData = async (e) => {
     setDisable(true);
     e.preventDefault();
-    const result = await authApi.addCollection(user.token, name, image);
+    const result = await authApi.addCollection(
+      user.token,
+      name,
+      image ? image : "https://chinguiteladmin.vercel.app/decoy.png"
+    );
     if (!result.ok) {
       console.log(result);
       setDisable(false);
