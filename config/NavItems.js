@@ -27,6 +27,8 @@ import Colors from "./Colors";
 import { FaMoneyCheckAlt, FaUsers } from "react-icons/fa";
 import { CgShoppingBag } from "react-icons/cg";
 import { MdOutlineFeaturedPlayList } from "react-icons/md";
+import { HiOutlineInbox } from "react-icons/hi";
+import { IoSquareOutline } from "react-icons/io5";
 
 const NavItems = {
   main: [
@@ -72,7 +74,7 @@ const NavItems = {
     {
       name: "Accueil",
       href: "/",
-      icon: GrHomeOption,
+      icon: IoSquareOutline,
       size: 23,
     },
     {
@@ -91,7 +93,7 @@ const NavItems = {
     {
       name: "Boîte de réception",
       href: "/request",
-      icon: MdOutlineFeaturedPlayList,
+      icon: HiOutlineInbox,
       size: 23,
     },
     {
