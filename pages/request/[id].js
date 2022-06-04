@@ -223,7 +223,7 @@ function PaymentsIDs({ menu, setMenu }) {
               <div
                 //className="sm:flex block "
                 style={{
-                  width: "160%",
+                  width: "190%",
                   display: "flex",
                   flexDirection: "row",
                   paddingTop: 10,
@@ -254,7 +254,7 @@ function PaymentsIDs({ menu, setMenu }) {
                       color: "rgba(0,0,40,0.9)",
                       overflow: "hidden",
                       whiteSpace: "nowrap",
-                      maxWidth: "26vw",
+                      maxWidth: "32vw",
                       textOverflow: "ellipsis",
                     }}
                   >
@@ -285,7 +285,7 @@ function PaymentsIDs({ menu, setMenu }) {
                       color: "rgba(0,0,40,0.9)",
                       overflow: "hidden",
                       whiteSpace: "nowrap",
-                      maxWidth: "26vw",
+                      maxWidth: "32vw",
                       textOverflow: "ellipsis",
                     }}
                   >
@@ -316,7 +316,7 @@ function PaymentsIDs({ menu, setMenu }) {
                       color: "rgba(0,0,40,0.9)",
                       overflow: "hidden",
                       whiteSpace: "nowrap",
-                      maxWidth: "26vw",
+                      maxWidth: "32vw",
                       textOverflow: "ellipsis",
                     }}
                   >
@@ -347,7 +347,7 @@ function PaymentsIDs({ menu, setMenu }) {
                       color: "rgba(0,0,40,0.9)",
                       overflow: "hidden",
                       whiteSpace: "nowrap",
-                      maxWidth: "26vw",
+                      maxWidth: "32vw",
                       textOverflow: "ellipsis",
                     }}
                   >
@@ -378,7 +378,7 @@ function PaymentsIDs({ menu, setMenu }) {
                       color: "rgba(0,0,40,0.9)",
                       overflow: "hidden",
                       whiteSpace: "nowrap",
-                      maxWidth: "26vw",
+                      maxWidth: "32vw",
                       textOverflow: "ellipsis",
                     }}
                   >
@@ -409,7 +409,7 @@ function PaymentsIDs({ menu, setMenu }) {
                       color: "rgba(0,0,40,0.9)",
                       overflow: "hidden",
                       whiteSpace: "nowrap",
-                      maxWidth: "26vw",
+                      maxWidth: "32vw",
                       textOverflow: "ellipsis",
                     }}
                   >
