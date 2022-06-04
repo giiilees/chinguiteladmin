@@ -78,7 +78,7 @@ function Payments({ menu, setMenu }) {
       alert(result.data);
     } else {
       setPayments(result.data);
-      console.log(result.data);
+      // console.log(result.data);
     }
   };
 
