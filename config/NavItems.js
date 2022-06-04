@@ -89,6 +89,12 @@ const NavItems = {
       children: [{ name: "Tout les services", href: "/shop" }],
     },
     {
+      name: "Boîte de réception",
+      href: "/request",
+      icon: MdOutlineFeaturedPlayList,
+      size: 23,
+    },
+    {
       name: "Réglages",
       href: "/menu/profile",
       icon: IoSettingsOutline,

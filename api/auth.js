@@ -90,6 +90,23 @@ const getOrders = (token, limit, skip) =>
     { headers: { Authorization: token } }
   );
 
+const getContacts = (token, limit, skip) =>
+  Client.apiClient.post(
+    "services/contact/get",
+    {
+      limit: limit ? limit : 10,
+      skip: skip ? skip : 0,
+    },
+    { headers: { Authorization: token } }
+  );
+
+const getContact = (token, id) =>
+  Client.apiClient.post(
+    "services/contact/get/one",
+    { id },
+    { headers: { Authorization: token } }
+  );
+
 const newOrder = (token, isService, service, amount, currency) =>
   Client.apiClient.post(
     "services/order",
@@ -235,6 +252,8 @@ export default {
   newOrder,
   signup,
   getOrders,
+  getContacts,
+  getContact,
   updateUser,
   addBusiness,
   getBusinesses,
